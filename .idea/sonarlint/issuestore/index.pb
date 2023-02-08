@@ -1,11 +1,6 @@
 
 <
 Gemfile.lock,2/1/21fb5836b499a2be648386aac055d2e069160d6c
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-7
-Gemfile,d/e/de3150c01c3a946a6168173c4116741379fe3579
 E
 config/application.rb,7/f/7ff7049c1c8745b54f0a9ef78996f60b38f36268
 R
@@ -22,8 +17,6 @@ B
 config/storage.yml,9/8/98fb829828f5d6f179e3be17f70e2491a1b76852
 >
 config/puma.rb,c/3/c396bcaa518e1892b21990d0ce71516eb68b6694
-C
-config/importmap.rb,e/5/e5a5088bc47f387c05ca1fb2da3fa9dcc30880a1
 E
 config/environment.rb,3/2/32cf963bc694248c5a463e17894503af06f93fdd
 C
@@ -40,8 +33,6 @@ E
 	bin/setup,3/f/3f490f8da820b05ec772996143c1dd5b3498f750
 Q
 !config/environments/production.rb,4/a/4a310e0d78d1faa88d49084f8149abd3441b1f25
-M
-config/initializers/assets.rb,b/9/b9304298674f06982ff2a82bda90ab13d28c5cbd
 ^
 .config/initializers/content_security_policy.rb,1/1/114e2cbb4b8f1d6fd040739efe38b2b28967b2c8
 _
