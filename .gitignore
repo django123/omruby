@@ -21,7 +21,9 @@
 /tmp/pids/*
 !/tmp/pids/
 !/tmp/pids/.keep
-/.idea/*
+
+#Ignore all .idea file
+.idea
 
 # Ignore uploaded files in development.
 /storage/*

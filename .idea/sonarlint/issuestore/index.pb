@@ -7,8 +7,6 @@ R
 "config/environments/development.rb,e/5/e54c3d8d363f5b004526c7fcab8f8eb31da5a209
 Y
 )app/controllers/application_controller.rb,7/d/7dc0dd94f601e507e2a20bad6adcf12a51caa380
-V
-&app/views/layouts/application.html.erb,e/8/e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
 T
 $test/application_system_test_case.rb,c/1/c10431f503a622f9e675d4774c7ac3223463cd29
 ;
