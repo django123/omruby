@@ -268,5 +268,9 @@ DEPENDENCIES
 RUBY VERSION
    ruby 3.2.0p0
 
+PLATFORMS
+  x86-mingw32
+  ruby
+  x86_64-linux
 BUNDLED WITH
    2.4.6
