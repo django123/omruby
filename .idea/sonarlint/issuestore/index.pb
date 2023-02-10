@@ -1,8 +1,6 @@
 
 E
 config/application.rb,7/f/7ff7049c1c8745b54f0a9ef78996f60b38f36268
-R
-"config/environments/development.rb,e/5/e54c3d8d363f5b004526c7fcab8f8eb31da5a209
 Y
 )app/controllers/application_controller.rb,7/d/7dc0dd94f601e507e2a20bad6adcf12a51caa380
 T
@@ -15,8 +13,6 @@ B
 config/puma.rb,c/3/c396bcaa518e1892b21990d0ce71516eb68b6694
 E
 config/environment.rb,3/2/32cf963bc694248c5a463e17894503af06f93fdd
-C
-config/database.yml,2/c/2c912561029efc03ffae15b01b7337417d7a99bd
 @
 config/cable.yml,4/4/44bb44c06ebf3546d3fa0b6c4fc0a4d3bd160834
 >
@@ -45,16 +41,16 @@ M
 app/javascript/application.js,1/5/152e2c420fe74ffc17152624ffc17eed9bcc66a5
 M
 config/initializers/assets.rb,b/9/b9304298674f06982ff2a82bda90ab13d28c5cbd
-@
-config/routes.rb,e/8/e801163eb9182955dca3eb9817d59af634f6665d
-S
-#app/controllers/pages_controller.rb,d/e/de75c9a3761b5afbbb0c46979f84da923c3afb8f
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-T
-$app/views/partials/_navabar.html.erb,0/f/0f70766342c2e70a65ec93dd1158395092125847
 S
 #app/views/partials/_footer.html.erb,f/b/fbc43e2d5da1a5950cbc2854db2f9e5c6779a483
-V
-&app/views/layouts/application.html.erb,e/8/e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
+<
+Gemfile.lock,2/1/21fb5836b499a2be648386aac055d2e069160d6c
+M
+config/initializers/devise.rb,f/c/fc4baf9840b8a1ebe46afd7dce3b9656c1c51c47
+N
+app/views/pages/about.html.erb,8/d/8d60c42633778cc2abaa4ff8ea2b3a6adb6b4238
+R
+"config/environments/development.rb,e/5/e54c3d8d363f5b004526c7fcab8f8eb31da5a209

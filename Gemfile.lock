@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/heartcombo/devise.git
+  revision: 8e2e3f6fda1ceabe2eff08cf34a6e663527c438b
+  branch: main
+  specs:
+    devise (4.9.0.alpha)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,13 +83,14 @@ GEM
     ast (2.4.2)
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
+    bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
-    bootstrap (5.2.3)
-      autoprefixer-rails (>= 9.1.0)
-      popper_js (>= 2.11.6, < 3)
-      sassc-rails (>= 2.0.0)
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     builder (3.2.4)
     capybara (3.38.0)
       addressable
@@ -122,6 +135,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.1)
     minitest (5.17.0)
     msgpack (1.6.0)
     net-imap (0.3.4)
@@ -136,11 +150,16 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.1-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.1-x86-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.14.1-x86_64-linux)
+      racc (~> 1.4)
+    orm_adapter (0.5.0)
     parallel (1.22.1)
     parser (3.2.0.0)
       ast (~> 2.4.1)
     pg (1.4.5)
-    popper_js (2.11.6)
+    popper_js (1.16.1)
     public_suffix (5.0.1)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -176,7 +195,13 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
+    rb-fsevent (0.11.2)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
     regexp_parser (2.7.0)
+    responders (3.1.0)
+      actionpack (>= 5.2)
+      railties (>= 5.2)
     rexml (3.2.5)
     rubocop (1.45.1)
       json (~> 2.3)
@@ -192,6 +217,13 @@ GEM
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -211,7 +243,10 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.0)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.0-arm64-darwin)
+    sqlite3 (1.6.0-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -223,7 +258,11 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.7)
+      tzinfo (>= 1.0.0)
     unicode-display_width (2.4.2)
+    warden (1.2.9)
+      rack (>= 2.0.9)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -243,12 +282,15 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
-  bootstrap (~> 5.2.2)
+  bootstrap (~> 4.0.0.alpha4)
   capybara
   debug
+  devise!
   importmap-rails
   jbuilder
   jquery-rails
@@ -256,6 +298,8 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rubocop
+  sass-rails
+  sassc-rails
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
@@ -268,9 +312,5 @@ DEPENDENCIES
 RUBY VERSION
    ruby 3.2.0p0
 
-PLATFORMS
-  x86-mingw32
-  ruby
-  x86_64-linux
 BUNDLED WITH
    2.4.6
