@@ -30,6 +30,8 @@ gem 'jquery-rails'
 gem 'devise', github: 'heartcombo/devise', branch: 'main'
 gem 'sassc-rails'
 gem 'sass-rails'
+gem 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
