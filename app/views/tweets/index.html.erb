@@ -1,14 +1,25 @@
 <p style="color: green"><%= notice %></p>
-
 <h1>Tweets</h1>
 
-<div id="tweets">
-  <% @tweets.each do |tweet| %>
-    <%= render tweet %>
-    <p>
-      <%= link_to "Show this tweet", tweet %>
-    </p>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">User</th>
+    <th scope="col">Content</th>
+    <th scope="col" colspan="3"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <%@tweets.each do |tweet|  %>
+  <tr>
+    <td><%= tweet.user %></td>
+    <td><%= tweet.content %></td>
+    <td><%= link_to 'Show', tweet%></td>
+    <td><%= link_to 'Edit', edit_tweet_path(tweet)%></td>
+    <td><%= link_to 'Destroy', tweet, method: :delete, data: {confirm: 'Are you sure?'}%></td>
+  </tr>
   <% end %>
-</div>
+  </tbody>
+</table>
 
 <%= link_to "New tweet", new_tweet_path %>

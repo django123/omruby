@@ -53,14 +53,8 @@ R
 "app/views/partials/_alert.html.erb,7/5/75c0b9633d8992cd00aec88e12c5e1b687cd1542
 Q
 !app/assets/stylesheets/pages.scss,b/6/b621578f241b138690f631e29099f4626ad07b6e
-T
-$app/views/partials/_navabar.html.erb,0/f/0f70766342c2e70a65ec93dd1158395092125847
-V
-&app/views/layouts/application.html.erb,e/8/e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
 M
 app/views/pages/home.html.erb,1/4/1494e435644e7f0027a6dda026635ea91fd8737f
-@
-config/routes.rb,e/8/e801163eb9182955dca3eb9817d59af634f6665d
 W
 'app/assets/stylesheets/application.scss,1/6/1637dd5207d3586063c883b080a13b0322095524
 ]
@@ -95,3 +89,10 @@ B
 app/admin/users.rb,1/3/13aca7a06d914fe1774d7792e94fb827402fb3be
 Z
 *db/migrate/20230220191745_create_tweets.rb,8/3/83dfcfe87e3267abf1e8636e311bc8165d8af11e
+<
+db/schema.rb,2/c/2cda0c6171fa7d04989507a1dd112e34c40df46d
+O
+app/views/tweets/_form.html.erb,7/4/7445c2893906a4da4775c7d0fbdd6533f3f2c50e
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
